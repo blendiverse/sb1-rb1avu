@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 添加一些基本样式以确保可见性 */
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+.container {
+  @apply px-4;
+}
